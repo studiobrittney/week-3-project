@@ -170,6 +170,8 @@
 
 <script>
 
+//////// Add Product Data to Page
+
 function addToPage(product) {
   $('#' + product.id + ' .picture').append('<img src="'+product.pictureUrl+'">');
   $('#' + product.id + ' .name').text(product.name);
@@ -185,7 +187,7 @@ addToPage(album2)
 addToPage(album3)
 
 
-////////// Navigation
+/////////// Navigation
 
 $("#viewAll").click(function() {
   $(".books").show();
